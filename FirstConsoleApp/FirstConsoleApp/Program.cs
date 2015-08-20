@@ -9,7 +9,10 @@ namespace FirstConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            if (Console.ReadKey().Key == ConsoleKey.Enter)
+                Console.WriteLine("Hello world!");
+            else
+                Console.WriteLine("Goodbye world!");
             Console.ReadKey();
         }
     }
