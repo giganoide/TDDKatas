@@ -10,20 +10,14 @@ namespace FizzBuzzGame
         public string GetString(int number)
         {
             string sReturn = String.Empty;
-            sReturn += GetFizz(number);
-            sReturn += GetBuzz(number);
+            sReturn += GetStringIfDivisible(number,3,"Fizz");
+            sReturn += GetStringIfDivisible(number, 5, "Buzz");
             return (!sReturn.Equals(string.Empty)) ? sReturn : number.ToString();
-
         }
 
-        private string GetBuzz(int number)
+        private string GetStringIfDivisible(int number, int divisor, string stringToReturn)
         {
-            return IsDivisibleBy(number, 5) ? "Buzz" : string.Empty;
-        }
-
-        private string GetFizz(int number)
-        {
-            return IsDivisibleBy(number, 3) ? "Fizz" : string.Empty;
+            return IsDivisibleBy(number, divisor) ? stringToReturn : string.Empty;
         }
 
         private bool IsDivisibleBy(int number, int divisor)
