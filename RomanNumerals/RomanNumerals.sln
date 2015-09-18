@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{FC5DF782-55E6-499F-8A83-AE0377B71028}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeral", "RomanNumeralConverter\RomanNumeral.csproj", "{FC5DF782-55E6-499F-8A83-AE0377B71028}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverterTest", "RomanNumeralConverterTest\RomanNumeralConverterTest.csproj", "{B7547FD8-F4CD-470F-8698-FA02710632A4}"
 EndProject
